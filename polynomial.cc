@@ -5,8 +5,8 @@
 
 Linux103::Polynomial::Polynomial(std::vector<std::vector<int>> input) 
 {
-	    matrix = input;
-	    	remove_zeros();
+	matrix = input;
+    	remove_zeros();
 }
 
 Linux103::Polynomial::Polynomial(int argc, char** argv)
@@ -21,7 +21,7 @@ void Linux103::Polynomial::remove_zeros()
 		        {
 				        if (matrix[i][0] == 0)
 						        {
-								            matrix.erase(matrix.begin() + i);
+								         matrix.erase(matrix.begin() + i);
 									                i--;
 											        }
 					    }
